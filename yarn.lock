@@ -2340,10 +2340,10 @@ async-limiter@~1.0.0:
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
-async@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/async/-/async-1.2.1.tgz#a4816a17cd5ff516dfa2c7698a453369b9790de0"
-  integrity sha1-pIFqF81f9RbfosdpikUzabl5DeA=
+async@~3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -2829,7 +2829,7 @@ buffer-equal-constant-time@1.0.1:
   resolved "https://registry.yarnpkg.com/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
   integrity sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
 
-buffer-from@^1.0.0, buffer-from@~1.1.1:
+buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
@@ -9345,21 +9345,18 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollbar@^2.16.2:
-  version "2.16.2"
-  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.16.2.tgz#bd7335367aa9f96a881c375d4ea0d6b858ab9f53"
-  integrity sha512-c0a8MriV+HOn//yCc8kDzyxULk8/tUNAAo3jpoebS0h6KSAzzgwLH+d0DpcjfVmgbd8aXHbUVx5M/mMnz0bgow==
+rollbar@^2.25.0:
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.25.0.tgz#af95e56b7f78666a3b60549bc2e0fd9c07ccdc9a"
+  integrity sha512-mytaGBKAeDkqb/sKXFLQ5eWWw9zzpFRGfPruUWN84AJF+Nwgo8BdGC0CVaHclvHzGImp+seLoKk1NQprU96c4w==
   dependencies:
-    async "~1.2.1"
-    buffer-from "~1.1.1"
+    async "~3.2.3"
     console-polyfill "0.3.0"
-    debug "2.6.9"
     error-stack-parser "^2.0.4"
     json-stringify-safe "~5.0.0"
     lru-cache "~2.2.1"
     request-ip "~2.0.1"
     source-map "^0.5.7"
-    uuid "3.0.x"
   optionalDependencies:
     decache "^3.0.5"
 
@@ -10877,11 +10874,6 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-
-uuid@3.0.x:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
-  integrity sha1-ZUS7ot/ajBzxfmKaOjBeK7H+5sE=
 
 uuid@^3.3.2:
   version "3.4.0"
